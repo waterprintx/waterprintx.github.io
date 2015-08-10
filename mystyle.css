@@ -1,0 +1,142 @@
+html {
+  font-family: Arial, 'LiHei Pro', 'Microsoft YaHei', 'PMingLiU', sans-serif
+}
+
+header {background: #00b9e4; padding: 0px;}
+h2 {color: #00b9e4;}
+.film img { border-color: #00b9e4;}
+footer {background: #00b9e4;}
+
+h1 a {color: white; text-decoration: none;}
+.intro {
+  text-align:center;
+  color: white;
+}
+
+p {margin: 15px;}
+.under-header a {text-decoration: none; color: #004A5B;}
+.under-header a:hover {text-decoration: underline;}
+
+
+h1 {
+    margin: 0 0 0 5px;
+    padding: 0px;
+}
+
+header nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 0px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: black;
+}
+
+header nav a:hover {
+    background-color: #82DDF2;
+    border-radius: 25px;
+}
+
+.border-block a {
+    border-radius: 25px;
+	border-style: solid;
+	border-color: #00b9e4;
+	padding: 3px;
+}
+.border-block a:hover {
+    text-decoration: none;
+	background-color: #00b9e4;
+	color: white;
+}
+
+.breadcrumb li {
+    display: inline;   
+}
+
+h3 {margin-left: 5px;}
+.feature .border {
+    border-style: solid;
+    border-color: #00b9e4;
+    border-radius: 25px;
+}
+.feature li {color: #00b9e4;}
+.feature li span {color: black;}
+
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+.caption {
+    display: block;
+}
+
+.film img:hover {opacity: 0.7;}
+.film img { border-style: solid;}
+#contact li {list-style-type: none;}
+footer {text-align: right; padding: 10px;}
+
+#gotop {
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    padding: 10px 15px;
+
+    text-decoration: none;
+    background: #777;
+    color: white;
+    opacity: 0.7;
+}
+#gotop:hover {
+    opacity: 1;  
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* >480 */
+@media only screen and (min-width: 480px) { 
+.film img {
+  width: 220px;
+}
+
+.item {
+  width: 225px;
+}
+
+h1 {float: left;}
+header nav {
+    float: right;
+    width: 55%;
+}
+header nav a {float: left; width: 20%; margin: 5px;}
+
+.service { float: left; width: 45%; margin: 5px}
+}
+
+/* <480 */
+@media only screen and (max-width: 480px) { 
+.film img {
+  width: 100%;
+}
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
