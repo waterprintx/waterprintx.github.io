@@ -9,7 +9,7 @@ p{margin:15px;}
 .under-header a{text-decoration:none;color:#004A5B;}
 .under-header a:hover{text-decoration:underline;}
 h1{margin:0 0 0 5px;padding:0px;}
-header nav a{display:block;margin-bottom:10px;padding:0px 0;text-align:center;text-decoration:none;font-weight:bold;color:black;}
+header nav a{display:block;margin-bottom:5px;padding:10px 0;text-align:center;text-decoration:none;font-weight:bold;color:black;}
 header nav a:hover{background-color:#82DDF2;border-radius:25px;}
 .border-block a{border-radius:25px;border-style:solid;border-color:#00b9e4;padding:3px;}
 .border-block a:hover{text-decoration:none;background-color:#00b9e4;color:white;}
