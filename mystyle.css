@@ -22,7 +22,7 @@ h3{margin-left:5px;}
 .caption{display:block;}
 .film img:hover{opacity:0.7;}
 .film img{border-style:solid;}
-#contact li{list-style-type:none;}
+#contact li{list-style-type:none;margin:5px;}
 footer{text-align:right;padding:10px;}
 #gotop{position:fixed;right:10px;bottom:30px;padding:10px 15px;text-decoration:none;background:#777;color:white;opacity:0.7;}
 #gotop:hover{opacity:1;}
